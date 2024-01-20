@@ -207,4 +207,8 @@ section {
         padding: 15px 8%;
         transition: .2s;
     }
+    section {
+        padding: 0 8%;
+        transition: .2s;
+    }
 }
