@@ -230,4 +230,20 @@ section {
         left: 4%;
         transition: .2s;
     }
+    :root {
+        --bg-font: 3.3rem;
+        --p-font: 1rem;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 1020px) {
+    .navbar a {
+        margin: 0 15px;
+    }
+    :root {
+        --big-font: 5rem;
+        --p-font: 1rem;
+        transition: .2s;
+    }
 }
