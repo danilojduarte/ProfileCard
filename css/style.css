@@ -320,6 +320,18 @@ section {
 
 
 .home-img img {
-    animation: imgg 2s ease-in-out infinite;
-    animation-delay: 2s;
+    animation: imgg 3s ease-in-out infinite;
+    animation-delay: 3s;
+}
+@keyframes imgg {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-22px);
+    }
+    100% {
+        transform: translateY(0);
+    }  
+
 }
